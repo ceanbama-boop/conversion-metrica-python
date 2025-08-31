@@ -1,0 +1,29 @@
+----------------------------------------
+Problematica:
+La compañía American MegaDesign está enfrentando problemas
+de ajuste en las piezas de muebles debido a la discrepancia
+entre las medidas de los diseños, en centímetros, y las máquinas 
+de fabricación, que utilizan pulgadas.
+----------------------------------------
+
+----------------------------------------
+Algortimo:
+1. solicitar al usuario las medidad de la pieza del mueble en cms 
+2. convertir las medidas de centímetros a pulgadas
+3. Mostrar la medidas convertidas en pulgadas al usuario.
+----------------------------------------
+
+----------------------------------------
+Pseudocodigo
+Inicio
+# Paso 1 : Solicitar al usuario las medidad de la pieza del mueble en cms
+mostrar mensaje: "Por favor ingrese la medida de la pieza (en cm): "
+
+# Paso 2 : Convertir las medidas de centímetros a pulgadas
+convertir_medidas_en_pulgadas = medidas_en_cms / 2.54
+
+# Paso 3 : Mostrar la medidas convertidas en pulgadas al usuario
+Mostrar mensaje: "Las medidas en pulgadas de la pieza ingresada son:", convertir_medidas_en_pulgadas
+
+Fin
+
